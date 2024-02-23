@@ -30,6 +30,7 @@ Authors: Author 1, Author 2
 :sectnums:
 :toc: left
 :toclevels: 4
+:toc-title: Table of contents
 :source-highlighter: pygments
 ifdef::backend-pdf[]
 :source-highlighter: coderay
@@ -39,6 +40,15 @@ endif::[]
 :stem: latexmath
 :footnote:
 :xrefstyle: short
+
+== List of figures
+list-of::image[]
+
+== List of tables
+list-of::table[]
+
+== List of code snippets
+list-of::listing[]
 
 [WARNING]
 .This document is in the link:http://riscv.org/spec-state[Development state]

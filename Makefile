@@ -47,6 +47,7 @@ OPTIONS := --trace \
            --failure-level=ERROR
 REQUIRES := --require=asciidoctor-bibtex \
             --require=asciidoctor-diagram \
+			--require=asciidoctor-lists \
             --require=asciidoctor-mathematical
 
 .PHONY: all build clean build-container build-no-container build-docs
