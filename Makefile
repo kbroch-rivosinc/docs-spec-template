@@ -83,6 +83,10 @@ build-no-container:
 	$(MAKE) SKIP_DOCKER=true build-docs
 	@echo "Build completed successfully."
 
+# Updates all submodes to the latest
+git-submodules-update:
+	git submodule update --recursive --remote --merge
+
 clean:
 	@echo "Cleaning up generated files..."
 	rm -rf $(BUILD_DIR)
